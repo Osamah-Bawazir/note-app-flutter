@@ -6,6 +6,7 @@ class NoteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.symmetric(vertical: 8),
       // width: 330,
       // height: 180,
       padding: EdgeInsets.only(top: 24, bottom: 24),
@@ -33,7 +34,7 @@ class NoteItem extends StatelessWidget {
             ),
             trailing: IconButton(
               onPressed: () {},
-              icon: Icon(Icons.delete, color: Colors.black, size: 40),
+              icon: Icon(Icons.delete, color: Colors.black, size: 30),
             ),
           ),
           Padding(
