@@ -24,4 +24,5 @@ class NoteApp extends StatelessWidget {
       home: const NotesView(),
     );
   }
+  
 }
