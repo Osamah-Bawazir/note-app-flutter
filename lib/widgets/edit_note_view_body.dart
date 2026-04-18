@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:note_app/widgets/custom_app_bar.dart';
-import 'package:note_app/widgets/custom_search_icon.dart';
 import 'package:note_app/widgets/custom_text_field.dart';
 
 class EditNodeViewBody extends StatelessWidget {
